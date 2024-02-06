@@ -1,0 +1,17 @@
+body{
+    background-image: url("1_university_of_mauritius_blog_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center left;
+   
+  
+}
+
+#signup{
+    position: absolute;
+    top: 10vh;
+    height: 80vh;
+    width: 40%;
+    left: 30%;
+    background-color: rgba(255, 255, 255, 0.66);
+    border-radius: 20px;
+}

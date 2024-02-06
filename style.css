@@ -1,0 +1,352 @@
+*{
+    font-family: sans-serif;
+    font-size: 62.5%;
+    margin: 0px;
+}
+body{
+    background-color: #dcf0fa;
+}
+h3{
+    display: none;
+}
+#mobview{
+    display: none;
+}
+#mid{
+    position: absolute;
+    top: 10vh;
+    left: 5%;
+    width: 60%;
+    height: 85vh;
+    background-color: rgba(111, 169, 245, 0.474);
+    border-radius: 20px;
+}
+
+#mid > h1{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 6rem;
+}
+
+#mid p{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+.icon{
+    margin: 1rem;
+    color: white;
+    
+}
+.icon:hover{
+    cursor: pointer;
+    color: rgb(135, 211, 252);
+}
+#btn-login{
+    position: relative;
+    left: 43%;
+    font-size: 2rem;
+    border: none;
+    width: 20%;
+    height: 4rem;
+    border-radius: 10px;
+    margin-top: 4rem;
+   }
+
+#btn-login:hover{
+    cursor: pointer;
+    background-color: #82a2f4;
+}
+h2{
+    top: 40vh;
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    position: absolute;
+    width: 60%;
+    left: 20%;
+}
+h2 > span{
+    font-size: 2rem;
+    background:rgb(173, 206, 250);
+    padding:0 10px; 
+}
+
+#login{
+    width: 100%;
+    position: absolute;
+    top: 50vh;
+    height: 30vh;
+}
+
+.input{
+    font-size: 20px;
+    position: relative;
+    left: 30%;
+    border-radius: 5px;
+    border: none;
+    height: 5vh;
+    width: 40%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: block;
+}
+#left{
+    background-image: url("png.png");
+    position: absolute;
+    left: 70%;
+    width: 30%;
+    height: 100vh;
+    
+
+}
+
+#signup{
+    position: absolute;
+    left: 10%;
+    top: 30vh;
+    
+}
+#signup > h1{
+    font-size:5rem;
+    text-align: center;
+    color: white;
+}
+
+#signup p{
+    color: white;
+    margin-top: 10px;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+#signup button{
+    position: absolute;
+    left: 22%;
+    border: 0px;
+    font-size: 2rem;
+    margin: 30px;
+    border-radius: 20px;
+    height: 4rem;
+    width: 15rem;
+    text-align: center;
+}
+
+#signup button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.514);
+}
+
+@media(max-width: 426px){
+    body{
+        background-image: url("png.png");
+    }
+  
+
+    #mid{
+        display: none;
+    }
+    
+    #left{
+        display: none;
+    }
+    #mobview{
+        display: block;
+        height: 100vh;
+        width: 100%;
+    }
+
+    #mobview > h1{
+        color: white;
+        position: relative;
+        top: 12vh;
+        border: none;
+        text-align: center;
+        font-size: 3rem;
+    }
+    form{
+        width: 80%;
+    }
+    #mob-login{
+        position: relative;
+        top: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-mob-icons{
+        display: flex;
+        justify-content: center;
+    }
+    .mob-input{
+     font-size: 20px;
+     position: relative;
+     border-radius: 5px;
+     border: none;
+     height: 5vh;
+     width: 80%;
+    
+     margin-top: 2rem;
+
+     display: block;
+    }
+
+
+
+    .mob-icon{
+        color: white;
+        margin-top: 3rem;
+        margin-right: 2rem;
+        font-size: 3rem
+    }
+
+   #btn-login{
+    position: relative;
+    left: 0%;
+    font-size: 2rem;
+    background-image: url("360_F_167594893_dWtiBCm2kkQGeeIGcJSGKryKItZ8XAI1.jpg");
+    border: none;
+    width: 80%;
+    height: 4rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+   }
+
+   #signup{
+    width: 100%;
+    left: 0px;
+    position: relative;
+    top: 30vh;
+    text-align: center;
+   }
+
+   #signup > p{
+    
+    margin-bottom: 1rem;
+    font-size: 2rem;
+   }
+
+    #signup a{
+        
+        font-size: 2rem;
+        text-decoration: none;
+        color: blue;
+   }
+}
+
+@media (min-width: 427px) and (max-width: 769px){
+    body{
+        background-image: url("png.png");
+    }
+  
+
+    #mid{
+        display: none;
+    }
+    
+    #left{
+        display: none;
+    }
+    #mobview{
+        display: block;
+        height: 100vh;
+        width: 100%;
+    }
+
+    #mobview > h1{
+        color: white;
+        position: relative;
+        top: 12vh;
+        border: none;
+        text-align: center;
+        font-size: 3rem;
+    }
+    form{
+        width: 80%;
+    }
+    #mob-login{
+        position: relative;
+        top: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-mob-icons{
+        display: flex;
+        justify-content: center;
+    }
+    .mob-input{
+     font-size: 20px;
+     position: relative;
+     border-radius: 5px;
+     border: none;
+     height: 5vh;
+     width: 80%;
+    
+     margin-top: 2rem;
+
+     display: block;
+    }
+
+
+
+    .mob-icon{
+        color: white;
+        margin-top: 3rem;
+        margin-right: 2rem;
+        font-size: 3rem
+    }
+
+   #btn-login{
+    position: relative;
+    left: 0%;
+    font-size: 2rem;
+    background-image: url("360_F_167594893_dWtiBCm2kkQGeeIGcJSGKryKItZ8XAI1.jpg");
+    border: none;
+    width: 40%;
+    height: 4rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+   }
+
+   #signup{
+    width: 100%;
+    left: 0px;
+    position: relative;
+    top: 30vh;
+    text-align: center;
+   }
+
+   #signup > p{
+    
+    margin-bottom: 1rem;
+    font-size: 2rem;
+   }
+
+    #signup a{
+        
+        font-size: 2rem;
+        text-decoration: none;
+        color: blue;
+   }
+
+}
+
+@media(min-width:769px) and (max-width: 1024px){
+    #mid h2{
+        display: none;
+    }
+}
